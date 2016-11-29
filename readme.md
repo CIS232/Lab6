@@ -4,7 +4,9 @@
 ## Question 1: _maxElement_ Method
 
 Write a static method named *maxElement* in edu.carrollcc.cis232.Question1 class that takes only an *int[]* as an argument and returns the largest value. The method should use recursion to find the largest element.  If the int[] argument has no elements or is null, throw an IllegalArgumentException.  Demonstrate the method in the Question1 main method.
-	
+
+HINT: Pass the max element as an argument in the recursive call. If the next value beats it, replace the max for the next recursive call.
+
 **Points breakdown**
 
 - Technical: 25 points
@@ -22,6 +24,7 @@ A palindrome is any word, phrase, or sentence that reads the same forward and ba
 
 Write a static boolean method named *isPalindrome* that uses recursion to determine whether a *String* argument is a palindrome. The method should return true if the argument reads the same forward and backwards. Demonstrate the method in the Question2 main method.
 
+HINT: Clear the string of any symbols and spaces. Make the letters the same case. Start by checking the first letter matches the last letter and recurse to check that the second letter matches the second to last letter and so on until there is one or no letters to check.
 	
 **Points breakdown**
 
