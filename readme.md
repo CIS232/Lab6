@@ -1,5 +1,5 @@
 # Lab 6: Chapter 15
-**Due:** May 9th by 6:30 PM
+**Due:** December 7th by Midnight
 
 ## Question 1: _maxElement_ Method
 
@@ -33,12 +33,12 @@ Write a static boolean method named *isPalindrome* that uses recursion to determ
 ### How to submit the lab
 This section outlines how to get the lab on to your computer and how to submit it.
 
-1. Fork the Chapter 16 lab repository
+1. Fork the Chapter 15 lab repository
 2. Import the project into Eclipse
     1. Click File->Import...
     2. Choose Git->Projects from Git
     3. Choose "Clone URI", press Next
-    4. Copy the clone URI on **your forked** github repository (if it has CIS232-SP2016 in the url, it is the wrong url)
+    4. Copy the clone URI on **your forked** github repository (if it has CIS232 in the url, it is the wrong url)
     5. Paste the URI into the Eclipse window
     6. Set your GitHub user name and password, leave everything else as it is.
     7. Press Next
@@ -56,7 +56,7 @@ This section outlines how to get the lab on to your computer and how to submit i
 5. Submit your work
     1. Right click the project
     2. Choose Team->Commit...
-    3. Enter a comment such as "My solution for the chapter 16 lab"
+    3. Enter a comment such as "My solution for the chapter 15 lab"
     4. Enter your name/email for the author/committer fields if it is not set
     5. Press "Commit and Push". (Committing saves the changes locally, Pushing saves the changes on your GitHub fork)
     6. Your work is now on your GitHub fork.  Open up the browser to your GitHub fork of the example lab.
