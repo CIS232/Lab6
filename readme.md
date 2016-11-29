@@ -9,9 +9,9 @@ HINT: Pass the max element as an argument in the recursive call. If the next val
 
 **Points breakdown**
 
-- Technical: 25 points
+- Technical: 40 points
 - Style: 10 points
-- Total: 35 points
+- Total: 50 points
 
 ## Question 2: Palindrome Detector
 
@@ -28,9 +28,9 @@ HINT: Clear the string of any symbols and spaces. Make the letters the same case
 	
 **Points breakdown**
 
-- Technical: 25 points
+- Technical: 40 points
 - Style: 10 points
-- Total: 35 points
+- Total: 50 points
 
 ----
 ### How to submit the lab
