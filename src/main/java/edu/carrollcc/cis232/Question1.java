@@ -12,6 +12,6 @@ public class Question1 {
 			throw new IllegalArgumentException();
 		}
 		
-		return 0;
+		return 8;
 	}
 }
