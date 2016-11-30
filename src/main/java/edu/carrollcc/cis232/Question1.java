@@ -7,4 +7,11 @@ public class Question1 {
 	}
 
 	//Write static maxElement method here
+	public static int maxElement(int[] numbers){
+		if(numbers == null || numbers.length == 0){
+			throw new IllegalArgumentException();
+		}
+		
+		return 0;
+	}
 }
