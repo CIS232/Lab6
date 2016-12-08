@@ -106,6 +106,7 @@ public class Question1Test {
 			// This is what we want!
 			assertNotNull(e);
 		} catch (Exception e) {
+			System.err.println(e.getClass().getName());
 			if(!(e.getCause() instanceof IllegalArgumentException)){
 				fail("Wrong Exception thrown");
 			}
