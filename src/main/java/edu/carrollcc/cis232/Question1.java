@@ -8,13 +8,17 @@ public class Question1 {
 	}
 
 	
-	public static int maxElement(int[] array) throws IllegalArgumentException
+	public static int maxElement(int[] array)
 	{
+		if(array == null || array.length==0)
+		{
+			throw new IllegalArgumentException();
+		}
 		return maxElement(array, array.length-1);
 	}
 	
 	//Write static maxElement method here
-	public static int maxElement(int[] array, int counter) throws IllegalArgumentException
+	public static int maxElement(int[] array, int counter) 
 	{
 	    if (counter > 0) 
 	    {
