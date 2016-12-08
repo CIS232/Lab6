@@ -11,7 +11,15 @@ public class Question1 {
 		if (numbers == null || numbers.length == 0) {
 			throw new IllegalArgumentException("Error");
 		}
-		return 0;
+		return maxElement(numbers, 0);
 	}
 
+	public static int maxElement(int[] numbers, int i) {
+		if (i > 0) {
+			return Math.max(numbers[i], maxElement(numbers, i - 1));
+		} else {
+			return numbers[0];
+		}
+
+	}
 }
