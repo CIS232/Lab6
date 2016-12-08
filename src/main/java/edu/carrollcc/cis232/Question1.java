@@ -11,11 +11,7 @@ public class Question1 {
 	}
 	
 	public static int maxElement(int[] numbers) throws IllegalArgumentException{
-		if (numbers == null)
-		{
-			throw new IllegalArgumentException();
-		}
-		else if (numbers.length == 0)
+		if (numbers == null || numbers.length == 0)
 		{
 			throw new IllegalArgumentException();
 		}
